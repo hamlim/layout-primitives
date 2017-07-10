@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "emotion": "^5.2.0",
+    "react": "16.0.0-alpha.13",
+    "react-dom": "16.0.0-alpha.13"
+  }
+}
