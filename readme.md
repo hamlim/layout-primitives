@@ -7,6 +7,8 @@
 3. Add the `ThemeProvider` at the top level of your app, with the theme function from `utils`
 4. Make awesome things
 
+## Usage:
+
 ```Javascript
 
 import { ThemeProvider } from 'emotion/react';
