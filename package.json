@@ -1,7 +1,33 @@
 {
   "dependencies": {
     "emotion": "^5.2.0",
-    "react": "16.0.0-alpha.13",
-    "react-dom": "16.0.0-alpha.13"
-  }
+    "react": "16.0.0-alpha.13"
+  },
+  "name": "layout-primitives",
+  "description": "## Implementation:",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "scripts": {
+    "build": "babel src/ --out-dir dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamlim/layout-primitives.git"
+  },
+  "keywords": ["react", "emotion", "styled", "layout", "primitives"],
+  "author": "Matthew Hamlin <hamlim@outlook.com> (https://matthamlin.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hamlim/layout-primitives/issues"
+  },
+  "homepage": "https://github.com/hamlim/layout-primitives#readme"
 }
